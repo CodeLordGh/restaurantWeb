@@ -1,24 +1,24 @@
 export const sample_data = [
     {
         id: 1,
-        name: "Margherita Pizza",
+        name: "food1",
         origins: ["home", "school"],
         description: "Classic pizza with tomato sauce, mozzarella cheese, fresh basil.",
         price: 12.99,
         dietary_restrictions: ["vegetarian"],
         spiciness: 0,
-        imageUrl: "bruschetta-mista.jpg",
+        imageUrl: "food-1.jpg",
         stars: 4.5, // Out of 5 stars
         ingredients: ["Tomato sauce", "Mozzarella cheese", "Fresh basil", "Pizza dough"]
     },
     {
         id: 2,
-        name: "Crispy Calamari",
+        name: "food2",
         description: " Lightly fried squid rings served with a zesty marinara sauce.",
         price: 7.99,
         origins: ["home", "school"],
         dietary_restrictions: ["None"],
-        imageUrl: "calamari.jpg",
+        imageUrl: "food-2.jpg",
         spiciness: 1,
         stars: 4.2, // Out of 5 stars
         ingredients: ["Squid", "flour", "egg", "Breadcrumbs", "marinanra sauce"]
@@ -29,7 +29,7 @@ export const sample_data = [
         description: "Toasted crostini topped with fresh tomatoes, mozzarella cheese, basil, and balsamic glaze",
         price: 12.99,
         origins: ["home", "school"],
-        imageUrl: "GrilledSalmonwithRoastedVegetables.jpg",
+        imageUrl: "food-3.jpg",
         dietary_restrictions: ["vegetarian"],
         spiciness: 0,
         stars: 4.8, // Out of 5 stars
@@ -41,7 +41,7 @@ export const sample_data = [
         description: "Pan-seared salmon served with seasonal roasted vegetables and lemon-dill sauce",
         price: 24.99,
         origins: ["home", "school"],
-        imageUrl: "margherita.jpg",
+        imageUrl: "food-4.jpg",
         dietary_restrictions: ["Gluten-free"],
         spiciness: 0,
         stars: 4.7, // Out of 5 stars
