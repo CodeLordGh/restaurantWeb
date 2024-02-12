@@ -23,7 +23,7 @@ const Header = () => {
                 <Link to="/profile">{user.name}</Link>
                 <div className={classes.menu}>
                 <Link to="/profile">Profile</Link>
-                <Link to="/oders">Oders</Link>
+                <Link to="/orders">Orders</Link>
                 <a onClick={logout}>Logout</a>
                 </div>
               </li>
