@@ -11,3 +11,5 @@ export const getAllByTag = async (tag) => {
     if (tag === 'All') return getAll();
     return sample_data.filter(item => item.tags ?.includes(tag))
 }
+
+export const getById = async (foodId) => sample_data.find(item => item.id == foodId)
