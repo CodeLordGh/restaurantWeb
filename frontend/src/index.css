@@ -16,3 +16,8 @@ body {
 a {
   text-decoration: none;
 }
+
+.rating {
+  display: flex;
+  flex-wrap: nowrap;
+}

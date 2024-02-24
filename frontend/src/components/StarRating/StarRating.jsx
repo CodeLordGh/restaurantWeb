@@ -1,5 +1,3 @@
-import classes from "./StarRating.module.css";
-
 export default function StarRating({ stars, size }) {
   const style = {
     width: `${size}px`,
@@ -19,7 +17,7 @@ export default function StarRating({ stars, size }) {
   }
 
   return (
-    <div className={classes.rating}>
+    <div className="rating">
       {[1, 2, 3, 4, 5].map((number) => (
         <Star key={number} number={number} />
       ))}
